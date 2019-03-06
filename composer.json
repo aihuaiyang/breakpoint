@@ -1,0 +1,16 @@
+{
+    "name": "huaiyang/breakpoint",
+    "description": "断将断点异常反馈给客户端，个人瞎搞，请勿商用！",
+    "authors": [
+        {
+            "name": "huaiyang",
+            "email": "873811021@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Huaiyang\\Breakpoint\\":"src/"
+        }
+    }
+}
