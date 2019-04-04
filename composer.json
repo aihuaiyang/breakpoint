@@ -1,6 +1,6 @@
 {
     "name": "huaiyang/breakpoint",
-    "description": "断将断点异常反馈给客户端，个人瞎搞，请勿商用！",
+    "description": "在方法函数内部直接终止，将错误信息通过json的方式通知客户端，个人瞎搞，仅供参考，请勿用到线上项目！",
     "authors": [
         {
             "name": "huaiyang",

@@ -7,6 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class BreakpointServiceProvider extends ServiceProvider
 {
     protected $defer = true;
+
     /**
      * Bootstrap services.
      *
@@ -30,7 +31,8 @@ class BreakpointServiceProvider extends ServiceProvider
         });
     }
 
-    public function provides(){
+    public function provides()
+    {
         return ['breakpoint'];
     }
 }
