@@ -22,7 +22,7 @@ class Breakpoint extends Exception{
         $response = json_decode($this->message,true);
 
         if (null === $response) {
-            $exception['message'] = $response;
+            $exception['message'] = $this->message;
         }else{
 
             if(array_key_exists('message',$response)){
