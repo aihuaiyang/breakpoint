@@ -12,5 +12,15 @@
         "psr-4":{
             "Huaiyang\\Breakpoint\\":"src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Huaiyang\\Breakpoint\\BreakpointServiceProvider"
+            ],
+            "aliases": {
+                "Breakpoint": "Huaiyang\\Breakpoint\\Facades\\Breakpoint"
+            }
+        }
     }
 }
