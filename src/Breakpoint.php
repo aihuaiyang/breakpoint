@@ -7,7 +7,7 @@ use Illuminate\Http\Response;
 
 class Breakpoint extends Exception{
 
-    public function __construct(string $message = "", int $code = 200)
+    public function __construct(string $message = null, int $code = null)
     {
         parent::__construct($message, $code);
     }
